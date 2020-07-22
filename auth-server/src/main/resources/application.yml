@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+

@@ -14,6 +14,7 @@ public class User implements UserDetails {
     private Long id;
     @Column(unique = true, updatable = false)
     private String username;
+    @Column(updatable = false)
     private String password;
     private boolean accountNonExpired;
     private boolean accountNonLocked;
